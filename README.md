@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OpenAI Usage Dashboard
 
-## Getting Started
+This interactive web application is designed to provide users with an insightful and easy-to-navigate interface to monitor and analyze their OpenAI API usage and costs. Utilizing the OpenAI Dashboard API, this dashboard offers a comprehensive view of API usage, helping users to track and manage their spending more effectively.
 
-First, run the development server:
+Demo Project: https://
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **API Key Integration:** Securely connect to the OpenAI API using your unique SESS Key and Organization Key.
+- **Date Range Selection:** Customizable date range picker allowing users to filter data based on specific start and end dates.
+- **Dynamic Data Visualization:** Utilizes Chart.js to render engaging and informative bar charts representing API usage and costs.
+- **User-Centric Data:** Detailed breakdown of costs by user ID, offering insights into individual usage patterns.
+- **Snapshot ID and Aggregation:** View data organized by Snapshot IDs and aggregation timestamps for precise tracking.
+- **Error Handling:** Robust error handling to guide users through correct API key input and data fetching processes.
+- **Responsive Design:** A user-friendly interface that adapts seamlessly across various devices and screen sizes.
+- **Shareable Link Generation:** Generate custom URLs with encoded parameters for easy sharing of specific dashboard views.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **React:** A JavaScript library for building user interfaces.
+- **Chart.js:** A simple yet flexible JavaScript charting library.
+- **CSS:** Styling and layout for a responsive design.
 
-## Learn More
+## Installation and Setup
 
-To learn more about Next.js, take a look at the following resources:
+To set up and run the OpenAI Usage Dashboard, follow these simple steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies by running `npm install` in the project directory.
+3. Start the application with `npm start`. This will launch the dashboard in your default web browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+Upon launching the dashboard, you'll be prompted to enter your OpenAI SESS Key and Organization Key. These are essential for fetching your usage data from the OpenAI API. You can also select specific start and end dates to filter the data. Once the data is loaded, the dashboard will display a bar chart visualizing the costs incurred over the selected period. Additionally, detailed tables below the chart provide a breakdown of costs by user and by day.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions to the OpenAI Usage Dashboard are welcome! Whether it's feature requests, bug reports, or code contributions, please feel free to open an issue or submit a pull request on our GitHub repository.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
