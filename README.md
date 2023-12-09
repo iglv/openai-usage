@@ -2,7 +2,7 @@
 
 This interactive web application is designed to provide users with an insightful and easy-to-navigate interface to monitor and analyze their OpenAI API usage and costs. Utilizing the OpenAI Dashboard API, this dashboard offers a comprehensive view of API usage, helping users to track and manage their spending more effectively.
 
-Demo Project: https://
+Demo Project: https://openai-stat.vercel.app/
 
 ## Key Features
 
